@@ -1,0 +1,59 @@
+        *{
+			margin: 0;
+			border: 0;
+			padding: 0;
+		}
+		p{
+			font-family: arial;
+			font-size: 16px;
+			padding: 20px;
+			text-align: justify;
+		}
+		h1{
+			font-family: arial;
+			font-size: 26px;
+			padding: 20px;
+		}
+		h2{
+		    padding: 20px;
+			font-family: arial;
+			font-size: 20px
+
+		}
+	header{ 
+		background-color: #042c6b;
+		color: #FFF;
+		font-family: arial;
+		padding: 15px;
+		text-align: center;
+	}
+	footer{
+		background-color: #042c6b;
+		color: #fff;
+		font-family: arial;
+		text-align: center;
+		padding: 20px;
+	}
+	figure {
+		text-align: center;
+	}
+	.imagem-conteudo{
+		border-radius: 10px 60px;
+	}
+
+	@media(min-width: 320px) and (max-width: 450px){
+		.imagem-conteudo{
+		border-radius: 10px 60px;
+		width: 80%;
+	}
+	}
+	#imagem-topo{
+		text-align: center;
+	}
+	#nome-usuario{
+		text-align: center;
+		font-family: arial;
+		font-size: 18px;
+		color: #fff;
+
+	}
